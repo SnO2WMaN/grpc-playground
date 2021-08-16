@@ -5,16 +5,29 @@
       "name": "root"
     },
     {
-      "path": "bff",
-      "name": "Backend for frontend"
+      "path": "proto",
+      "name": "proto"
     },
     {
-      "path": "nestjs-service-1",
-      "name": "Service 1 by NestJS"
+      "path": "bff",
+      "name": "BFF"
+    },
+    {
+      "path": "user-service",
+      "name": "User Service"
     }
   ],
   "extensions": {
-    "recommendations": ["zxh404.vscode-proto3"]
+    "recommendations": ["EditorConfig.EditorConfig", "zxh404.vscode-proto3"]
   },
-  "settings": {}
+  "settings": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/node_modules": true
+    }
+  }
 }

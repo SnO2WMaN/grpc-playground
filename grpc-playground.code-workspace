@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "root"
+    },
+    {
+      "path": "bff",
+      "name": "Backend for frontend"
+    },
+    {
+      "path": "nestjs-service-1",
+      "name": "Service 1 by NestJS"
+    }
+  ],
+  "extensions": {
+    "recommendations": ["zxh404.vscode-proto3"]
+  },
+  "settings": {}
+}

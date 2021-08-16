@@ -1,0 +1,14 @@
+# deps
+node_modules/
+
+# dist
+dist/
+
+# env
+.env*
+
+# logs
+*.log
+
+# protobuf
+src/proto/*.ts

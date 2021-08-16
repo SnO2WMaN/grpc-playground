@@ -1,0 +1,25 @@
+{
+  "root": true,
+  "extends": [
+    "plugin:@shopify/typescript",
+    "plugin:@shopify/jest",
+    "plugin:@shopify/prettier"
+  ],
+  "plugins": ["unused-imports"],
+  "rules": {
+    "import/extensions": [0],
+    "unused-imports/no-unused-imports": [2],
+    "@typescript-eslint/consistent-type-definitions": [2, "type"],
+    "@typescript-eslint/consistent-indexed-object-style": [2, "record"]
+  },
+  "overrides": [
+    {
+      "files": ["*.module.ts"],
+      "rules": {"@typescript-eslint/no-extraneous-class": 0}
+    },
+    {
+      "files": ["*.config.ts"],
+      "rules": {"no-process-env": 0}
+    }
+  ]
+}

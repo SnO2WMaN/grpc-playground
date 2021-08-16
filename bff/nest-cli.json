@@ -1,0 +1,7 @@
+{
+  "sourceRoot": "src",
+  "compilerOptions": {
+    "assets": ["proto/*.proto"],
+    "watchAssets": true
+  }
+}

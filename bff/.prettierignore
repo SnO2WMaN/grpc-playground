@@ -1,0 +1,9 @@
+# deps
+node_modules/
+
+# dist
+dist/
+
+# protobuf
+src/proto/*.ts
+

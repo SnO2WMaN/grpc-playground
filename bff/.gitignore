@@ -1,0 +1,15 @@
+# deps
+node_modules/
+package-lock.json
+
+# dist
+dist/
+
+# env
+.env*
+
+# logs
+*.log
+
+# protobuf
+src/proto/*.ts
